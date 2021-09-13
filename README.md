@@ -1,10 +1,10 @@
 # Documentation for ETark Assignment
 ## Basic Backend Auth
 
-### Running the App
-#### Create a .env file in the root folder with the following content
-MONGOURI = "Enter your mongodb URI here"
-SECRETORKEY = "Enter the unique secretOrKey for JWT" 
+### Running the App  
+#### Create a .env file in the root folder with the following content  
+MONGOURI = "Enter your mongodb URI here"  
+SECRETORKEY = "Enter the unique secretOrKey for JWT"   
 
 Now, in the root directory, run 
 ##### npm install
