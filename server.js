@@ -42,6 +42,10 @@ require("./middlewares/passport")(passport);
 //Use Routes
 app.use('/',users);
 
+app.get('/',(req,res)=>{
+  res.status(200).json({message:"Backend is working"})
+})
+
 //Start Server
 app.listen(PORT, ()=>{
     console.log(`Server started at ${PORT}`);
