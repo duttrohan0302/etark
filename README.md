@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Documentation for ETark assignment
+# Documentation for ETark Assignment
 ## Basic Backend Auth
 
 ### Running the App
@@ -12,25 +11,24 @@ Now, in the root directory, run
 Then run
 ##### npm run dev
 
-=======
 ## Routes
 
 ### USER Routes
 
 1. Create/Signup User
-  @type    POST
-  @route   /register
-  @desc    Register the user
-  @access  Public
-
-2. Login User
-  @type    POST
-  @route   /login
-  @desc    Register the user
-  @access  Public
-
+  @type    POST  
+  @route   /signup  
+  @desc    Register the user  
+  @access  Public  
+  
+2. Login User  
+  @type    POST  
+  @route   /login  
+  @desc    Register the user  
+  @access  Public  
+  
 3. Get Current user 
   @type    GET 
-  @route   /home
-  @desc    Get current user(from JWT and Passport Auth)
-  @access  Private
+  @route   /home  
+  @desc    Get current user(from JWT and Passport Auth)  
+  @access  Private  
