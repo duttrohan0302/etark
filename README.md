@@ -3,32 +3,37 @@
 
 ### Running the App  
 #### Create a .env file in the root folder with the following content  
-MONGOURI = "Enter your mongodb URI here"  
-SECRETORKEY = "Enter the unique secretOrKey for JWT"   
-
+<pre>
+  MONGOURI = "Enter your mongodb URI here"  
+  SECRETORKEY = "Enter the unique secretOrKey for JWT"   
+</pre>
 Now, in the root directory, run 
-##### npm install
+<pre>
+  npm install
+</pre>
 Then run
-##### npm run dev
+<pre>
+  npm run dev
+</pre>
 
 ## Routes
 
 ### USER Routes
 
-1. Create/Signup User
+1. Create/Signup User  
   @type    POST  
   @route   /signup  
   @desc    Register the user  
   @access  Public  
   
-2. Login User  
+2. Login User   
   @type    POST  
   @route   /login  
   @desc    Register the user  
   @access  Public  
   
-3. Get Current user 
-  @type    GET 
-  @route   /home  
-  @desc    Get current user(from JWT and Passport Auth)  
+3. Get Current user  
+  @type    GET  
+  @route   /home   
+  @desc    Get current user(from JWT and Passport Auth)   
   @access  Private  
